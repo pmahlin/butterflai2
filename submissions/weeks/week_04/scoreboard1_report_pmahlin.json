@@ -1,0 +1,78 @@
+{
+ "student": "pmahlin",
+ "variant": "width-amplitude",
+ "kind": "ablation",
+ "question": "amplitude dependent belt width",
+ "spec": {
+  "shape": "gamma",
+  "pooling": "shared",
+  "drift": "exponential",
+  "profile": "gaussian",
+  "width": "amplitude",
+  "gate": "none",
+  "emission": "threshold"
+ },
+ "fitted_parameters": 25,
+ "held_out_nll_per_hemicycle_year": -26.117168065264917,
+ "between_hemicycle_spread": 18.23607124867218,
+ "paired_vs_baseline": {
+  "mean": -0.6980739615246411,
+  "se": 0.3009399983099463,
+  "median": -0.2833759853319613,
+  "better": 15,
+  "of": 18
+ },
+ "ks_median": 0.04553937810211363,
+ "ks_not_rejected": 8,
+ "count_error_percent": 10.463982247456578,
+ "protocol": {
+  "held_out_unit_contributed": [
+   "clock drift coordinate via training alignment",
+   "belt amplitude via area-record model"
+  ]
+ },
+ "fingerprint": {
+  "recipe": {
+   "mesh": [
+    201,
+    241
+   ],
+   "domain": [
+    0.0,
+    60.0
+   ],
+   "window": [
+    -6.0,
+    11.0
+   ],
+   "folds": [
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    23
+   ],
+   "withheld": [
+    16,
+    20,
+    22
+   ],
+   "analysis_set": [
+    12,
+    23,
+    30.0
+   ],
+   "gauge": [
+    1.0,
+    1.0,
+    15.0
+   ],
+   "headline_amplitude": "area record"
+  },
+  "digest": "5e55384fbc54"
+ }
+}
